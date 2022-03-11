@@ -23,6 +23,10 @@ Micro Servicos para endpoint de serviços bancarios
 - **POST** /api/v1/conta/saque
 - **GET** /api/v1/conta/extrato-periodo/**{data}**/**{data}**/**{conta}**/**{agencia}**
 
+## Testes POSTMAN
+
+- **Dock.postman_collection.json** exemplos de chamadas no **POSTMAN**
+
 ## MongoDB URI
 
 - Alterar em src/providers/database/implementation/MongoDB.ts
@@ -85,3 +89,5 @@ Foram aplicados no projeto
 - Inclusão do RabbitMQ para comunicação entre serviços
 
 - Inclusão de autenticação com JWT Token
+
+- Inclusão do .ENV
