@@ -24,12 +24,12 @@ export class PortadorManagementController{
     }   
 
     async handleDELETE(request: Request, response: Response): Promise<Response> {
-        const { cpf, name } = request.body;
+        const { cpf } = request.params;
 
         try{
             await this.portadorManagement.remove({
-                cpf,
-                name
+                cpf: cpf,
+                name: ""
             })
 
             return response.status(204).send();

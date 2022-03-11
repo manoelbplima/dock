@@ -14,7 +14,6 @@ const PortadorSchema: Schema = new Schema({
     },
     name: {
         type: String,
-        required: true
     }
 })
 

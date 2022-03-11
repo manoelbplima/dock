@@ -41,11 +41,6 @@ test('Check should portador duplicity validation it ok', () => {
 })
 
 test('Check should portador delete it ok', () => {
-    portadorRepository.save({
-        cpf: "36127621844",
-        name: "Manoel Lima"
-    })    
-
     return portadorManagement.remove({
         cpf: "36127621844",
         name: ""

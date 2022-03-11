@@ -1,0 +1,7 @@
+{
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "express-group-routes": "^1.1.0",
+    "mongoose": "^6.2.5"
+  }
+}
